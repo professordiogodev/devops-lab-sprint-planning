@@ -1,0 +1,25 @@
+id,title,type,value,points,depends_on,risk,must,notes
+S01,Fix: short links return 500 for URLs with a trailing space,bug,10,2,,low,yes,P1 in production since Friday. Customers are complaining
+S02,Custom aliases for short links,feature,9,5,,low,no,Top request from paying customers
+S03,Rate limiting per API key,feature,7,5,,med,no,Needed before the public launch
+S04,Click analytics: store every redirect,feature,8,8,,med,no,Foundation for the analytics dashboard
+S05,Click analytics dashboard,feature,8,8,S04,med,no,Marketing wants it for the launch
+S06,Click analytics CSV export,feature,5,3,S04,low,no,Nice for enterprise customers
+S07,Upgrade FastAPI to the latest minor,tech-debt,4,3,,med,no,Security patch released last week
+S08,Spike: evaluate Redis for the link store,spike,6,3,,low,no,Answer needed before the storage rewrite
+S09,Move link store from memory to Redis,feature,9,13,S08,high,no,Without it links vanish on every restart
+S10,Add /healthz readiness details,feature,5,2,,low,no,Requested by the SRE team
+S11,Structured JSON logging,tech-debt,6,3,,low,no,Needed to build the monitoring pipeline
+S12,Dark mode for the web UI,feature,2,3,,low,no,Nice to have
+S13,QR code for each short link,feature,5,5,,low,no,Marketing request
+S14,Fix: stats endpoint is slow with more than 10k links,bug,7,3,,med,no,Seen in staging load tests
+S15,Dockerfile and docker-compose for local dev,tech-debt,6,3,,low,no,Onboarding takes two days today
+S16,CI pipeline with lint and tests,tech-debt,8,5,,low,no,Nothing runs on pull requests
+S17,Deploy to production from CI,feature,8,5,S16,med,no,Depends on the pipeline
+S18,Link expiry date,feature,6,5,S02,low,no,Builds on custom aliases
+S19,Bulk import of links from CSV,feature,4,5,,low,no,One customer asked
+S20,Authentication with API keys,feature,9,8,,high,no,Prerequisite for the paid plan
+S21,Paid plan billing,feature,10,13,S20,high,no,Revenue goal for next quarter
+S22,Update the README and onboarding docs,tech-debt,3,2,,low,no,Easy win
+S23,Fix: 404 page is blank,bug,3,1,,low,no,Cosmetic
+S24,Accessibility review of the web UI,spike,4,3,,low,no,Legal asked
