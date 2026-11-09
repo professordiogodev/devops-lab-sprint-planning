@@ -1,6 +1,4 @@
-# Scrum: Plan the Sprint With Real Constraints
-
-Monday, sprint planning. 24 stories, a team missing three people-days, a production bug, a dependency chain and a stakeholder who wants everything. Commit to a sprint you can actually deliver.
+<p align="center"><img src="assets/banner.svg" alt="Scrum: Plan the Sprint With Real Constraints" width="100%"></p>
 
 | | |
 |-|-|
@@ -17,9 +15,10 @@ Monday, sprint planning. 24 stories, a team missing three people-days, a product
 5. Commit and push. Open the **Actions** tab of your fork (click *I understand my workflows, go ahead and enable them* the first time). The **Lab check** shows what is still missing.
 6. When the check is green, **submit the URL of your fork** in the course platform.
 
+> [!NOTE]
 > The check only looks at your answers and any files the lab asks you to commit. Your instructor reads your work and may ask you to explain any line.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## The situation
 
@@ -33,6 +32,7 @@ Monday, 09:30, sprint planning. The product owner arrives with 24 stories and on
 
 Your role is Scrum Master and developer in one. You will plan a sprint the team can **honestly** deliver, and explain what is not in it.
 
+> [!IMPORTANT]
 > **Your mission**
 > - Work out the sprint **capacity** from velocity and availability
 > - Choose and order stories: the must-have first, dependencies respected, value maximised
@@ -41,7 +41,7 @@ Your role is Scrum Master and developer in one. You will plan a sprint the team 
 
 **Time:** 60-75 min | **Cost:** free | **You need:** a text editor and Python 3 (to run the checker)
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 0 - Set the scene
 
@@ -53,7 +53,7 @@ Fork this repository and clone your fork. Three files hold the facts:
 
 Open them in a spreadsheet or a text editor.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 1 - Recon: read the room
 
@@ -63,9 +63,10 @@ Open them in a spreadsheet or a text editor.
 4. Which stories have a 13-point estimate? What does a 13 tell you about how well the team understands it?
 5. The backlog's total is more than 100 points. What does that mean for the stakeholder's "everything"?
 
+> [!NOTE]
 > **Predict** If the team commits to the number the stakeholder asked for (60 points), how many points do you think it will complete? Base your guess on `velocity.csv`: compare *committed* with *completed*.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 2 - Capacity: how much can we honestly take?
 
@@ -77,9 +78,10 @@ Calculate in your notes:
 
 Write the three numbers and the result at the top of your plan. You should commit to between **80% and 100%** of capacity: less is wasteful, more is a promise you will break.
 
+> [!NOTE]
 > **Think** Why use the *completed* points of past sprints and not the committed ones? What does an estimate of 8 points mean: hours, days, or something else? Why do many teams avoid converting points into hours?
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 3 - Build the sprint
 
@@ -116,9 +118,10 @@ Rules:
 - At most one spike.
 - Under **Left out**, list at least three stories with a reason you could say to the product owner.
 
+> [!WARNING]
 > **Break it** Run `python3 verify.py` early and often. Break your own plan on purpose: put a story before its dependency, go over capacity by one point, drop the must. Read how each failure is reported.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 4 - Defend it
 
@@ -129,7 +132,7 @@ Imagine the product owner reads your plan. Prepare for two questions:
 
 Write the answers in your submission, 2 sentences each.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Part 5 - Prove it
 
@@ -139,7 +142,7 @@ python3 verify.py
 
 The checker re-computes capacity, validates dependencies and order, compares the value you deliver with the best possible selection, and checks that your goal, Left out, Definition of Done and Risks sections are real. It also runs automatically in your fork when you push.
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
 ## Level up (optional)
 
