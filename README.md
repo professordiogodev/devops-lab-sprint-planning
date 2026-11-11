@@ -22,7 +22,7 @@
 
 ## 🎬 The situation
 
-<p align="center"><img src="assets/gifs/situation.gif" width="300" alt=""></p>
+<p align="center"><img src="assets/gifs/situation.gif" width="300" alt="Animation: 24 stories"></p>
 
 Monday, 09:30, sprint planning. The product owner arrives with 24 stories and one sentence: *"We need everything by the launch."* The reality in the room:
 
@@ -59,7 +59,7 @@ Open them in a spreadsheet or a text editor.
 
 ## Part 1 - Recon: read the room
 
-<p align="center"><img src="assets/gifs/recon.gif" width="300" alt=""></p>
+<p align="center"><img src="assets/gifs/recon.gif" width="300" alt="Animation: backlog.csv"></p>
 
 1. Which stories are bugs? Which story is the `must`? Why is it the first thing you plan?
 2. Draw the dependency chains. Which story blocks which? (Look at `depends_on`.) Which chain is the longest?
@@ -140,7 +140,7 @@ Write the answers in your submission, 2 sentences each.
 
 ## Part 5 - Prove it
 
-<p align="center"><img src="assets/gifs/verify.gif" width="300" alt=""></p>
+<p align="center"><img src="assets/gifs/verify.gif" width="300" alt="A terminal running the lab&#x27;s verify script and printing PASS lines, ending with ALL CHECKS PASSED"></p>
 
 ```bash
 python3 verify.py
