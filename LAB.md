@@ -2,15 +2,20 @@
 
 ## The situation
 
-Monday, 09:30, sprint planning. The product owner arrives with 24 stories and one sentence: *"We need everything by the launch."* The reality in the room:
+```text
+MEETING MINUTES - Sprint planning                         Monday 09:30
+Present   : the team, the product owner
+09:31 PO     : "We need everything by the launch."  (24 stories)
+09:33 Team   : Maya is out for three days. Sam has four days of other commitments.
+09:35 Team   : there is a P1 bug in production since Friday
+09:38 Team   : some stories cannot start before others finish
+09:41 Team   : two stories are 13 points: too big to finish, too big to trust
+09:44 Data   : last three sprints delivered 31, 28 and 34 points
+09:45 Stake. : "We want 60."
+09:46 -      : (silence)
+```
 
-- Maya is out for three days, and Sam has four days of other commitments
-- There is a **P1 bug in production** since Friday
-- Some stories **cannot start** before others finish
-- Two stories are estimated at **13 points**, too big to finish and too big to trust
-- The team has finished 31, 28 and 34 points in the last three sprints, and a stakeholder wants 60
-
-Your role is Scrum Master and developer in one. You will plan a sprint the team can **honestly** deliver, and explain what is not in it.
+You are Scrum Master and developer in one. The minutes stop where the decision should be. Plan a sprint the team can **honestly** deliver, and write down what is not in it.
 
 > **Your mission**
 > - Work out the sprint **capacity** from velocity and availability
